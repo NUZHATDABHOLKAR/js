@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--prime-color);
+}
+:root{
+     --prime-color:white;
+    --secondary-color:#212121; 
+}
+.dark-theme{
+    --prime-color:#212121;
+    --secondary-color:#fff;  
+}
+.nav{
+    display:flex;
+    /* border:2px solid black; */
+    justify-content: space-around;
+}
+
+.nav-item{
+    /* border:2px solid black;  */
+    text-align: center;
+    margin-top: 30px;
+
+}
+.nav-items{
+    /* border:2px solid black;  */
+    text-align: center; 
+    text-decoration: none;
+    color:var(--secondary-color);
+    margin-left:30px;
+    font-size: 20px;
+}
+.nav-items:hover{
+     color:orangered;
+}
+.moon{
+    width:30px;
+    height:35px;
+     margin-top: 30px; 
+    /* border:2px solid blue; */
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+    /* border:2px solid blue;  */
+}
+.a1{
+    color:orangered;    
+}
+.a2{
+    display:flex;
+    flex-direction: column;
+    /* border:2px solid blue; */
+     width:30%;
+     margin-top: 9rem;
+}
+.btn1{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    color:var(--prime-color);
+    background-color: var(--secondary-color);
+    width:30%;
+    border:2px soild var(--secondary-color)
+}
+.pattern{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width:35%;
+    margin-top:9rem;
+    margin-left:40rem;
+}
+.girl{
+    z-index: 55;
+    z-index: -1;
+    width:70%;
+}
+.a4{
+    color:var(--secondary-color)
+}
+.a5{
+    color:var(--secondary-color)
+}
+@media only screen and (max-width: 768px) {
+    .nav{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    } 
+    .logo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+    } 
+    .moon{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width:50%;  */
+    }
+    .main{
+    flex-direction: column-reverse;
+    /* border:2px solid pink; */
+    }
+    
+    .pattern{
+      display:none
+    }
+    .girl{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .a4{
+        text-align: center;
+        /* border:2px solid pink; */
+        display:block;
+        margin-left: 75px;
+        margin-right: auto; 
+        margin-top: -75px; 
+    }
+    .a5{
+        display:block;
+        margin-left: 75px;
+        margin-right: auto; 
+        margin-top: -15px; 
+        width:200%;
+        /* border:2px solid pink; */
+    }
+    .btn1{
+        width:200%;
+        margin-left: 60px;
+    }
+    
+}
