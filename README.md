@@ -1,5 +1,4 @@
 ## js(practise project)
- 
 
 ## Author
 DABHOLKAR NUZHAT
