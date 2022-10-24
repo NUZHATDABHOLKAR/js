@@ -5,17 +5,6 @@ DABHOLKAR NUZHAT
 
 ## PROJECT 1( convert into dark theme )
  
-## Technologies
-1)HTML<br>
-2)CSS<br>
-3)JAVASCRIPT
-
-## key learning:
-1)esponsiveness😀<br>
-2)how to change image using javascript <br>
-3)hover effect😀
-
-
 ## Time Taken
 1 hour 😀🙄
 
@@ -23,22 +12,22 @@ DABHOLKAR NUZHAT
 [website ](https://nd-1.netlify.app/) 
 
 
-
 ## PROJECT 2(how to display loader gif in website)
- ## convert into dark theme 
-## Technologies
-1)HTML<br>
-2)CSS<br>
-3)JAVASCRIPT
-
-## key learning:
-1)Responsiveness😀<br>
-2) How to add loader img in website <br>
-
-
 
 ## Time Taken
 30 min 😀🙄
 
 ## LINK
 [website ](https://nd-2.netlify.app/) 
+
+
+## PROJECT 3(how to change image  in website)
+
+This ImageGallery will display all the images in small size and one image in full size. Once you will click on any small image it will show the full size of that particular image. We'll create this option in this Image Gallery using JavaScript.
+
+## Time Taken
+45 min 😀🙄
+
+## LINK
+[website ](https://nd-3.netlify.app/) 
+
