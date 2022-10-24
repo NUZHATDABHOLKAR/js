@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <form class="box" onsubmit="sendemail(); reset(); return false">
+      <h1>Get in touch</h1>
+      <div class="inside-box">
+        <input type="text" name="text" id="name" placeholder="Your name" />
+        <input type="email" name="text" id="email" placeholder="Email id" />
+        <input type="text" name="text" id="phone" placeholder="Phone no" />
+        <textarea
+          name=""
+          id="message"
+          rows="4"
+          placeholder="how can i help you"
+        ></textarea>
+        <button>send</button>
+      </div>
+    </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
