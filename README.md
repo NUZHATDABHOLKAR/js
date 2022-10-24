@@ -37,5 +37,5 @@ This ImageGallery will display all the images in small size and one image in ful
 1 hour  😀🙄
 
 ## LINK
-[ontact form](https://nd-contact-form.netlify.app/) 
+[Contact form](https://nd-contact-form.netlify.app/) 
 
