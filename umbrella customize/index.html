@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="a1">
+      <div>
+        <img src="./images/Blue.png" alt="" id="pic" />
+        <img src="" alt="" id="logo">
+      </div>
+      <div class="a2">
+        <h1 class="a4">Custom Umbrella</h1>
+        <div class="a3">
+          <button id="pink" onclick="change1()"></button>
+          <button id="blue" onclick="change2()"></button>
+          <button id="yellow" onclick="change3()"></button>
+        </div>
+        <h2 class="a9">Customize your umbrella</h2>
+        <h6 class="a9">upload a logo for an instant preview</h6>
+        <h6 class="a9">.png and .jpg files only max file size is 5MB</h6>
+        <button id="a6">
+          <img src="./images/upload_icon.svg" alt="" class="a7" /><input
+            type="file"
+            name="Upload file"
+            class="a8"
+            onchange="readUrl(this)"
+          />
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
